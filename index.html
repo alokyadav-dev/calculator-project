@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+      
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <div class="box-style">
+
+      
+
+      <div class="buttons-style">
+        <button class="button-style" onclick="clearAll()">AC</button>
+        <button class="button-style" onclick="lastDelete()">DEL</button>
+        <button class="button-style" onclick="appendValue('%')">%</button>
+        <button class="button-style" onclick="appendValue('/')">/</button>
+        <button class="button-style" onclick="appendValue('7')">7</button>
+        <button class="button-style" onclick="appendValue('8')">8</button>
+        <button class="button-style" onclick="appendValue('9')">9</button>
+        <button class="button-style" onclick="appendValue('*')">*</button>
+        <button class="button-style" onclick="appendValue('4')">4</button>
+        <button class="button-style" onclick="appendValue('5')">5</button>
+        <button class="button-style" onclick="appendValue('6')">6</button>
+        <button class="button-style" onclick="appendValue('-')" >-</button>
+        <button class="button-style" onclick="appendValue('1')">1</button>
+        <button class="button-style" onclick="appendValue('2')">2</button>
+        <button class="button-style" onclick="appendValue('3')">3</button>
+        <button class="button-style" onclick="appendValue('+')">+</button>
+        <button class="button-style" onclick="appendValue('0')">0</button>
+        <button class="button-style" onclick="appendValue('.')">.</button>
+        <button class="button-style" onclick="calculateResult()">=</button>
+      </div>
+
+      <div class="display-style">  <!-- contain both (result and expression) -->
+        <div class="expression-style expression-js"></div>
+        <div class="result-style result-js"></div>
+      </div>
+      
+    </div>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
