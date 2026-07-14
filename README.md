@@ -25,10 +25,6 @@ A simple and responsive Calculator built using **HTML, CSS, and JavaScript**. Th
 
 ---
 
-## 🌐 Live Demo
-
-
-
 ## 🚀 How to Run
 
 1. Clone the repository
