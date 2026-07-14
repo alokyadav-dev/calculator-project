@@ -25,6 +25,9 @@ A simple and responsive Calculator built using **HTML, CSS, and JavaScript**. Th
 
 ---
 
+🌐 Live demo link
+https://alokyadav-dev.github.io/calculator-project/
+
 ## 🚀 How to Run
 
 1. Clone the repository
